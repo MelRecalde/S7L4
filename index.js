@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", function () {
                     console.log(pic)
                 const container = document.getElementById("card-container")
                 const col = document.createElement("div")
-                col.classList.add("col-md-2")
+                col.classList.add("col-md-4")
                 col.innerHTML = `
               <div class="card mb-4 shadow-sm">
                 <img
